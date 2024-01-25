@@ -1,7 +1,8 @@
 ## Leetcode Solutions
 
-<p>All my leetcode solutions I have practiced so far.
-  Optimised Solutions included
+<p>All my leetcode solutions.<br>
+  Optimised Solutions included.<br>
+  Updating every day.<br>
 </p>
 
 ---------------------------------------------------------
