@@ -4,6 +4,28 @@ using namespace std;
 
 class Solution {
 public:
+    // 5th Jan, 2025. Clean stuff 🗿
+    // O(N) - Two Pointer technique
+    int removeDuplicates(vector<int>& nums) {
+        int n = nums.size();
+        if(n==1) return 1;
+        int i=0,j=1;
+
+        while(i<n && j<n) {
+            if((nums[i]!=nums[j]) && (nums[i]<nums[j])) {
+                i++;
+                swap(nums[i],nums[j]);
+                j=i+1;
+            }
+            else{
+                j++;
+            }
+        }
+        return i+1;
+    }
+
+
+    // Committed on Jan 26, 2024. Such shit code omfg.
     int removeDuplicates(vector<int>& nums) {
             int i=0;
             int j=1;
